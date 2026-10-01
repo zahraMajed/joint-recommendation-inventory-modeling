@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# Local data
+data/raw/
+
+# Model artifacts
+models/
+
+# Temporary files
+*.tmp
+*.log
+
+
