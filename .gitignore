@@ -1,5 +1,7 @@
 # Virtual environment
 .venv/
+venv/
+env/
 
 # Python
 __pycache__/
@@ -22,8 +24,11 @@ data/raw/
 # Model artifacts
 models/
 
+# Test and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
 # Temporary files
 *.tmp
 *.log
-
-
